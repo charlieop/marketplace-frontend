@@ -1,4 +1,4 @@
-school/git/
+.git/
 .DS_Store
-school/node_modules/
+./node_modules/
 
