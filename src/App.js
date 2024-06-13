@@ -1,26 +1,54 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import HeaderFooterWrapper from "./components/HeaderFooterWrapper";
+
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
+          <Route
+            path="/"
+            element={
+              <HeaderFooterWrapper>
+                <Home />
+              </HeaderFooterWrapper>
+            }
+          />
+          <Route
+            path="/courses"
+            element={
+              <HeaderFooterWrapper>
+                <Courses />
+              </HeaderFooterWrapper>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <HeaderFooterWrapper>
+                <Contact />
+              </HeaderFooterWrapper>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <HeaderFooterWrapper>
+                <About />
+              </HeaderFooterWrapper>
+            }
+          />
           <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }
