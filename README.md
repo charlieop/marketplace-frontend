@@ -1,8 +1,13 @@
 
 # Getting Started with Create React App main
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Style Guild
+
+The initial css file is using *bootstrap* framework for styling
+Check it from [here](https://getbootstrap.com/)
+Proper CSS resets are also done, and please try to use the css-custom-properties
 
 ## Available Scripts
 
