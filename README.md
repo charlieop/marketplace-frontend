@@ -3,11 +3,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Database Design
+
+Check and edit the database model at here: 
+[database](https://lucid.app/lucidchart/90c06bd1-b53f-45f2-9fb4-699e70969565/edit?viewport_loc=-11%2C-10%2C1576%2C853%2C0_0&invitationId=inv_978a158c-65bc-440a-9c18-ec3643ab240b)
+
 ## Style Guild
 
-The initial css file is using *bootstrap* framework for styling
-Check it from [here](https://getbootstrap.com/)
-Proper CSS resets are also done, and please try to use the css-custom-properties
+The initial css file is using *bootstrap* framework for styling\
+Check it from [here](https://getbootstrap.com/)\
+Proper CSS resets are also done, and please try to use the css-custom-properties\
 
 ## Available Scripts
 
